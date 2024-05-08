@@ -5,7 +5,7 @@ import pandas as pd
 import pickle
 
 def main():
-    working_directory = "/Users/kartik/Dropbox/MaxOne Data/April_30_2024/240430/"
+    working_directory = "/Users/kartik/Dropbox/MaxOne Data/"
     files = [f for f in Path(working_directory).rglob("*.raw.h5") if "Network" in f.parts]
 
     '''
